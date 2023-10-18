@@ -1,0 +1,6 @@
+#container{
+    column-count:2;
+}
+.box{
+    column-span:all;
+}
