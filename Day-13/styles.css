@@ -1,0 +1,8 @@
+#container{
+    width: 300px;
+}
+.box{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
