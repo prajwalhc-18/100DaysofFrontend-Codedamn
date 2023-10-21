@@ -1,0 +1,63 @@
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4f6; /* Add a background color for better visibility */
+}
+
+.profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cover-image img {
+    width: 100%;
+    height: 200px; /* Set the desired height for the cover image */
+    object-fit: cover;
+}
+
+.profile-section {
+    margin-top: -80px; /* Adjust as needed */
+    position: relative;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff; /* Add a border to the profile image */
+}
+
+.contact-buttons {
+    display: flex;
+    margin-top: 20px;
+}
+
+.contact-buttons button {
+    background-color: #d1d5db;
+    border: none;
+    border-radius: 10px;
+    margin: 0 5px;
+    padding: 10px;
+}
+
+.contact-buttons button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+/* Add media queries for responsiveness */
+@media screen and (max-width: 600px) {
+    .cover-image img {
+        height: 150px;
+    }
+
+    .profile-image {
+        width: 100px;
+        height: 100px;
+    }
+}
