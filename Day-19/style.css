@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;600;&display=swap");
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.radio-form {
+    display: flex;
+}
+
+.radio-form div {
+    margin-right: 10px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    display: block;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 2px solid black; /* Black border */
+    cursor: pointer;
+}
+
+input[type="radio"]:checked + label {
+    background-color: lightblue;
+}
