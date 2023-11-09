@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    background-color: darkgrey;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: aliceblue;
+    flex-direction: column;
+}
+
+h1 {
+    color: rgb(107, 3, 181);
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+}
+
+input{
+    padding: 6px;
+    margin: 0.7rem;
+    border: solid 2px gainsboro;
+    border-radius: 6px;
+    background-color: rgb(204, 202, 202);
+    font-size: 1rem;
+}
+
+#calculateTip {
+    margin-top: 0.5rem;
+    padding: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgb(255, 0, 0);
+    border: 1px solid red;
+    border-radius: 8px;
+}
+
+#tipAmount {
+    margin-top: 0.75rem;
+    padding: 10px;
+    background-color: bisque;
+    color: black;
+    border:2px solid rgb(107, 3, 181);
+    font-weight: bold;
+}
