@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Color picker lab</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+                margin: 0;
+            }
+
+            #colorPicker {
+                margin-bottom: 20px;
+            }
+
+            #colorDisplay {
+                width: 200px;
+                height: 200px;
+                border: 2px solid black;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            #colorCode {
+                font-size: 18px;
+            }
+        </style>
+	</head>
+	<body>
+		<!-- Create an input with type 'color' and id 'colorPicker' -->
+		<input type="color" id="colorPicker">
+
+		<!-- Create a div with id 'colorDisplay' -->
+		<div id="colorDisplay">
+			<p id="colorCode"></p>
+		</div>
+		<!-- Create a p tag with id 'colorCode' inside the div element -->
+
+		<script src="script.js"></script>
+	</body>
+</html>
