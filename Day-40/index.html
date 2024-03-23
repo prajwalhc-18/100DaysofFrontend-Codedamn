@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Option List Lab</title>
+    <style>
+        /* Inline CSS to style each list item */
+        #option-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        #option-list li {
+            cursor: pointer;
+            padding: 10px;
+            margin: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        #option-list li.selected {
+            background-color: #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+    <ul id="option-list">
+        <!-- List items with different styles -->
+        <li class="option">Option 1</li>
+        <li class="option">Option 2</li>
+        <li class="option">Option 3</li>
+        <li class="option">Option 4</li>
+        <li class="option">Option 5</li>
+    </ul>
+
+    <p id="selected-items">No items selected</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
